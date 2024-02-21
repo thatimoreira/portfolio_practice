@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
+:root {
+  --cor-principal: #000000;
+  --cor-secundaria: #F6F6F6;
+  --cor-terciaria: #22D4FD;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -8,8 +14,8 @@
 body {
   /* height: 100vh; sets page height  |  vh: viewport height */
   box-sizing: border-box;
-  background-color: #000000;
-  color: #f6f6f6;
+  background-color: var(--cor-principal);
+  color: var(--cor-secundaria);
 }
 
 /*h1 {
@@ -33,7 +39,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 24px;
-  color: #22d4fd;
+  color: var(--cor-terciaria);
   text-decoration: none; /* to remove the underline*/
 }
 
@@ -57,7 +63,7 @@ body {
 }
 
 .titulo-destaque {
-  color: #22d4fd;
+  color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__texto {
@@ -66,11 +72,11 @@ body {
 }
 
 .apresentacao__conteudo__certificados {
-  color: #f6f6f6;
+  color: var(--cor-secundaria);
 }
 
 .apresentacao__conteudo__certificados:hover {
-  color: #22d4fd;
+  color: var(--cor-terciaria);
 }
 
 .apresentacao__links {
@@ -92,7 +98,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 16px;
-  border: 2px solid #22d4fd;
+  border: 2px solid var(--cor-terciaria);
   width: 381px;
   text-align: center;
   border-radius: 8px;
@@ -100,7 +106,7 @@ body {
   font-weight: 600;
   padding: 21.5px 0;
   text-decoration: none;
-  color: #f6f6f6;
+  color: var(--cor-secundaria);
   font-family: "Montserrat", sans-serif;
 }
 
@@ -110,8 +116,8 @@ body {
 
 .rodape {
   padding: 23.64px;
-  color: #000000;
-  background-color: #22d4fd;
+  color: var(--cor-principal);
+  background-color: var(--cor-terciaria);
   text-align: center;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
