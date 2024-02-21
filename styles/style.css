@@ -4,6 +4,7 @@
   --cor-principal: #000000;
   --cor-secundaria: #F6F6F6;
   --cor-terciaria: #22D4FD;
+  --cor-hover: #272727;
 }
 
 * {
@@ -111,7 +112,7 @@ body {
 }
 
 .apresentacao__links__link:hover {
-  background-color: #272727;
+  background-color: var(--cor-hover);
 }
 
 .rodape {
