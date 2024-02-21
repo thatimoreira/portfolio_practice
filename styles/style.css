@@ -65,6 +65,14 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+.apresentacao__conteudo__certificados {
+  color: #f6f6f6;
+}
+
+.apresentacao__conteudo__certificados:hover {
+  color: #22d4fd;
+}
+
 .apresentacao__links {
   display: flex;
   flex-direction: column;
